@@ -24,6 +24,7 @@ int main(){
     //student3.setNumber(10); //Porque dá erro?
 	Student student5("António"); //outros parâmetros da função são os por omissão // @suppress("Ambiguous problem")
 
+
 	cout << student1.getSetNumber();
 	cout << "After invoking a function which returns a reference... ";
 	student1.getSetNumber()=100;
